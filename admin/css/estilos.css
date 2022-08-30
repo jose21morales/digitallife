@@ -1,0 +1,116 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url(../img/code.jpg);
+	background-size: 1100px;
+}
+
+.contenedor-body {
+	background: rgba(255,255,255,.3);
+	padding: 1px 0 150px 0;
+}
+
+.contenedor-form-regresar {
+	width: 80%;
+}
+
+.form {
+	margin:30px 0 0 0;
+	padding: 20px 0 30px 0;
+	border: 1px solid #ccc;
+	background: rgb(255,255,255);
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+
+.form-titulo {
+	margin: 0 0 13px 0;
+	color: #FF8000;
+}
+
+.form input {
+	width: 80%;
+	height: 25px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	padding: 5px;
+}
+
+.form input[type="submit"] {
+	width: 40%;
+	background: #FF8000;
+	color: #fff;
+	border: 1px solid rgb(140,80,0);
+}
+
+.form input[type="submit"]:hover {
+	background: rgb(220,110,0);
+}
+
+.regresar {
+	text-align: left;
+}
+
+.form-regresar {
+	background: rgb(0,0,210);
+	color: #fff;
+	padding: 7px;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.form-regresar:hover {
+	background: rgb(0,0,223);
+}
+
+@media screen and (min-width: 480px) {
+	.form {
+		width: 100%;
+	}
+
+	.regresar {
+		text-align: left;
+	}
+
+	.contenedor-from-regresar {
+		width: 40%;
+	}
+}
+
+ @media screen and (min-width: 768px) {
+ 	.form {
+ 		width: 100%;
+ 	}
+
+ 	.regresar {
+ 		text-align: left;
+ 	}
+
+ 	.contenedor-form-regresar {
+ 		width: 30%;
+ 	}
+ }
+
+ @media screen and (min-width: 1024px) {
+ 	.form {
+ 		width: 100%;
+ 	}
+
+ 	.regresar {
+ 		text-align: left;
+ 	}
+
+ 	.contenedor-form-regresar {
+ 		width: 40%;
+ 	}
+
+ 	.form input[type="submit"] {
+ 		width: 30%;
+ 		height: 30px;
+ 	}
+ }

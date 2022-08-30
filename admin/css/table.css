@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.cerrar {
+	text-align: right;
+}
+
+.admin-cerrar {
+	font-size: 14px;
+	padding: 6px;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+	background: #FF8000;
+}
+
+.admin-cerrar:hover {
+	background: rgb(220,110,0);
+}
+
+.bienvenido {
+	font-size: 18px;
+	margin-top: 15px;
+	padding: 10px;
+	color: #fff;
+	background: rgb(0,0,210);
+}
+
+.admin-usuarios {
+	color: #FF8000;
+	margin: 15px;
+}
+
+table {
+	width: 100%;
+	border:0;
+	text-align: center;
+}
+
+table thead tr th {
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 0;
+	border-left: 0;
+}
+
+table tbody tr td {
+	padding: 8px;
+	border: 0px solid #ccc;
+	background: rgb(230,230,230);
+}
+
+@media screen and (min-width: 480px) {
+	table {
+		width: 95%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	table {
+		width: 85%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	table {
+		width: 75%;
+	}
+}
